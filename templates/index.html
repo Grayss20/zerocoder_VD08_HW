@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random quote</title>
+</head>
+<body>
+
+{% if quote %}
+
+        <h1>{{ quote[0]['q'] }}</h1>
+        <p>{{ quote[0]['a'] }}</p>
+
+{% endif %}
+
+
+</body>
+</html>
